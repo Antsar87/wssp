@@ -1,0 +1,192 @@
+/* Reset */
+html {
+    font-size: 64.5%; /* 1rem = 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+h1, h2  {
+    font-family: 'Kanit', sans-serif;
+    color: #1ebea5;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+}
+
+.whatsapp-color {
+    color: #1ebea5;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.my-2 {
+    margin: 2rem 0;
+} 
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.btn-form {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-green {
+    display: inline-block;
+    background: #1ebea5;
+    color: #fff;
+    text-decoration: none;
+    padding: .8rem;
+    border-radius: .5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Header */
+.header {
+    background-image: url("../img/BackgroundImage1920x1080.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Whatsapp Box */
+.whatsapp-box {
+    display: flex;
+    padding: 1rem;
+    border-top: 3px solid #f8f8f8;
+    border-bottom: 2px solid #1ebea5;
+}
+
+.whasapp-logo-box img {
+    width: 8rem;
+    padding-right: 2rem;
+}
+
+.whatsapp-content-box p {
+    font-size: 1.4rem;
+}
+
+/* Whatsapp Form */
+.whatsapp-form-steps {
+    display: flex;
+    padding: 1.5rem;
+
+}
+
+.whatsapp-form {
+    border: 2px solid #1ebea5;
+    background: #f4f4f4;
+}
+
+.form {
+    flex-basis: 40rem;
+}
+
+.whatsapp-form-label {
+    padding: 1rem;
+}
+
+.whatsapp-form h3 {
+    display: inline-block;
+    background: #cccc;
+    color: #000;
+    font-size: 1.9rem;
+    width: 100%;
+}
+
+label {
+    color: #000;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: .6rem;
+    border: none;
+    margin: 1rem 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Whatsapp Steps */
+.step-span {
+    display: block;
+}
+
+.whatsapp-steps {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+
+/* Footer */
+.footer p, h3 {
+    text-align: center;
+    color: #ffff07;
+}
+
+.footer-paragraphs {
+    border-bottom: 1px solid #1ebea5;
+}
+
+.social-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.social-img .social-image {
+    width: 4rem;
+    
+}
+
+.madrigal-img .madrigal-image {
+    width: 20rem;
+}
+
+.madrigal-img {
+    text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+    .whatsapp-box {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .whatsapp-form-steps {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        padding: 0 5rem;
+    }
+}
