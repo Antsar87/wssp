@@ -1,9 +1,11 @@
 const form = document.querySelector('.form');
-const tel = <HTMLInputElement>document.getElementById('tel');
+const ddi = <HTMLInputElement>document.getElementById('ddi'); //Primer Input
+const ddd = <HTMLInputElement>document.getElementById('ddd'); //Segundo
+const tel = <HTMLInputElement>document.getElementById('tel'); //Tercero
 
 form?.addEventListener('submit', () => {
   window.open(
-    `https://api.whatsapp.com/send?phone=${tel.value}&text=hi`,
+    `https://api.whatsapp.com/send?phone=${ddi.value}${ddd?.value}${tel.value}&text=hi`,
     '_blank'
   );
 });

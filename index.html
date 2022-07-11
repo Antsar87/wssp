@@ -8,6 +8,14 @@
       href="https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:ital,wght@1,200&family=Sarala&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Name The Title</title>
   </head>
@@ -33,22 +41,38 @@
 
             <div class="whatsapp-form-label">
               <label for="">DDI</label>
-              <input type="number" placeholder="Digite o DDI..." />
-
-              <label for="">DDD</label>
-              <input type="number" placeholder="Digite o DDD..." />
-
-              <label for="">Telefone</label>
               <input
                 type="number"
-                placeholder="Digite o telefone do destinatario"
-                id="tel"
-                value=""
+                min="1"
+                id="ddi"
+                placeholder="Digite o DDI..."
                 required
               />
 
-              <input type="submit" class="btn-green" id="submit" value="Enviar Whatsapp"/>
-                
+              <label for="">DDD</label>
+              <input
+                type="number"
+                min="1"
+                id="ddd"
+                placeholder="Digite o DDD..."
+              />
+
+              <label for="">Telefone</label>
+              <input
+                type="tel"
+                placeholder="Digite o telefone do destinatario"
+                id="tel"
+                value=""
+                min="1"
+                required
+              />
+
+              <input
+                type="submit"
+                class="btn-green"
+                id="submit"
+                value="Enviar Whatsapp"
+              />
             </div>
           </div>
         </form>
@@ -57,7 +81,7 @@
           <p>
             Para enviar uma mensagem para alguém, basta seguir estes 3 passos
             simples:
-            <span class="step-span">
+            <span class="step-span my-2">
               1. Insira o DDD do destinatário (DDI somente se for para fora do
               Brasil);
             </span>
@@ -68,19 +92,6 @@
           <p class="my-2">3. Seleccione/Toque no botão "Enviar".</p>
 
           <p>Pronto, sua conversa já pode ser iniciada!</p>
-
-          <p class="mt-2 fs-2">Atenção</p>
-
-          <p class="my-2">
-            Se você estiver no computador, a
-            <span class="whatsapp-color">Whatsapp Web</span> será aberta para
-            enviar a mensagem.
-          </p>
-
-          <p>
-            Mas se você estiver no celular, o aplicativo do
-            <span class="whatsapp-color">Whatsapp</span> será aberto o envio.
-          </p>
         </div>
       </div>
 
@@ -99,24 +110,25 @@
         </div>
 
         <div class="social-img">
-          <a href="#"
-            ><img class="social-image" src="img/FacebookLogo.png" alt=""
-          /></a>
-          <a href="#"
-            ><img class="social-image" src="img/TwitterLogo.png" alt=""
-          /></a>
-          <a href="#"
-            ><img class="social-image" src="img/WhatsappLogo.png" alt=""
-          /></a>
-          <a href="#"
-            ><img class="social-image" src="img/LinkedinLogo.png" alt=""
-          /></a>
+          <a href="#">
+            <i class="fa-brands fa-facebook-square"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-twitter-square"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-whatsapp-square"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </div>
 
         <div class="madrigal-img">
-          <a href="#"
-            ><img class="madrigal-image" src="img/MadrigalLogo.svg" alt=""
-          /></a>
+          <a href="#">
+            <img class="madrigal-image" src="img/MadrigalLogo.svg" alt="" />
+          </a>
+          <a href="#"> LGPD </a>
         </div>
       </footer>
     </main>
