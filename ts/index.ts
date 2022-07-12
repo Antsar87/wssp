@@ -5,7 +5,7 @@ const tel = <HTMLInputElement>document.getElementById('tel'); //Tercero
 
 form?.addEventListener('submit', () => {
   window.open(
-    `https://api.whatsapp.com/send?phone=${ddi.value}${ddd?.value}${tel.value}&text=hi`,
+    `https://api.whatsapp.com/send?phone=${ddi.value}${ddd?.value}${tel.value}&text=Olá`,
     '_blank'
   );
 });
