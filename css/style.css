@@ -73,6 +73,19 @@ body {
   background-image: url('../img/BackgroundImage1920x1080.jpg');
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* header lgpd */
+.headerlgpd {
+  width: 100%;
+  background: rgb(58, 126, 180);
+  background: linear-gradient(
+    257deg,
+    rgba(58, 126, 180, 1) 0%,
+    rgba(29, 253, 171, 1) 50%,
+    rgba(69, 214, 252, 1) 100%
+  );
 }
 
 /* Whatsapp Box */

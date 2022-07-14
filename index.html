@@ -16,8 +16,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <meta
+      name="description"
+      content="Comunique-se mais rápido, sem gerar lixo na sua agenda!"
+    />
+
+    <!-- meta tag -->
+    <meta property="og:title" content="Whatsapp Sem Salvar Contato" />
+    <meta
+      property="og:description"
+      content="Comunique-se mais rápido, sem gerar lixo na sua agenda!"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
-    <title>Name The Title</title>
+    <title>Não Salvo Whatsapp</title>
   </head>
   <body>
     <main class="header">
@@ -41,13 +54,7 @@
 
             <div class="whatsapp-form-label">
               <label for="">DDI</label>
-              <input
-                type="number"
-                min="1"
-                id="ddi"
-                placeholder="Digite o DDI... (+55)"
-                required
-              />
+              <input type="number" min="1" id="ddi" value="55" required />
 
               <label for="">DDD</label>
               <input
@@ -110,16 +117,31 @@
         </div>
 
         <div class="social-img">
-          <a href="#">
+          <a
+            href="https://www.facebook.com/share.php?u=https://zapsemsalvar.online/"
+            target="_blank"
+          >
             <i class="fa-brands fa-facebook-square"></i>
           </a>
-          <a href="#">
+          <a
+            href="http://www.twitter.com/share?url=https://zapsemsalvar.online/"
+            target="_blank"
+          >
             <i class="fa-brands fa-twitter-square"></i>
           </a>
-          <a href="#">
+
+          <a
+            id="wssp"
+            href="#"
+            target="_blank"
+          >
             <i class="fa-brands fa-whatsapp-square"></i>
           </a>
-          <a href="#">
+
+          <a
+            href="https://www.linkedin.com/sharing/share-offsite/?https://zapsemsalvar.online/"
+            target="_blank"
+          >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
