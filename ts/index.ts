@@ -17,7 +17,7 @@ form?.addEventListener('submit', (e) => {
 wssp?.addEventListener('click', (e) => {
   e.preventDefault()
   if (ddi.value === '' || tel.value === '') {
-    alert('telephone number is required');
+    alert('Telephone number is required');
     return;
   }
 
