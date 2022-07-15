@@ -96,6 +96,15 @@ body {
   border-bottom: 2px solid #1ebea5;
 }
 
+.whasapp-logo-box--lgpd {
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.whasapp-logo-box--lgpd span {
+  margin-left: -2rem;
+}
+
 .whasapp-logo-box img {
   width: 8rem;
   padding-right: 2rem;
@@ -109,6 +118,8 @@ body {
 .whatsapp-form-steps {
   display: flex;
   padding: 1.5rem;
+  flex-direction: row-reverse;
+  justify-content: start;
 }
 
 .whatsapp-form {
@@ -156,17 +167,15 @@ input:focus {
 .whatsapp-steps {
   padding: 0 3.9rem;
   font-size: 1.4rem;
+  flex-basis: 40%;
 }
 
 /* Footer */
-.footer p,
+
+.footer-paragraphs,
 h3 {
   text-align: center;
   color: #ffff07;
-}
-
-.footer-paragraphs {
-  border-bottom: 1px solid #1ebea5;
 }
 
 .social-img {
@@ -229,11 +238,5 @@ h3 {
   .form {
     width: 100%;
     padding: 0 5rem;
-    flex-basis: initial;
-  }
-
-  .whatsapp-steps {
-  margin-top: 5rem;
-
   }
 }
